@@ -58,11 +58,11 @@ and select "Custom Text Editor". In the command field you need to enter:
 
     vim --servername VIM --remote-silent +%l %f
 
-You need to start vim using "vim --server VIM <file>". This starts vim in
+You need to start vim using "vim --servername VIM <file>". This starts vim in
 server mode. This way Okular can send you commands for backward search.
 Tip: Add an alias to your `~/.bashrc`
 
-    alias vim='vim --server VIM'
+    alias vim='vim --servername VIM'
 
 In Okular you can use SHIFT-LeftMouseClick to jump into the LaTeX source.
 
